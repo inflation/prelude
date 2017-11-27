@@ -1,2 +1,3 @@
-;; Set Theme
-(setq prelude-theme 'base16-tomorrow-night)
+(require 'prelude-packages)
+(prelude-require-package 'dracula-theme)
+(setq prelude-theme 'dracula)
